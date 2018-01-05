@@ -26,16 +26,14 @@ cur_gl_ver = str2double( cur_gl_ver(2:end) );
 % copyfile ([pwd, filesep, prog_name, '-master'], pwd)
 
 if cur_gl_ver > cur_local_ver
-    
-    zip([prog_name,'.bak'], pwd)
-    
+   
     unzip(download_web)
 
     file = dir([pwd, filesep, prog_name, '-master']);
     for i=3:length(file)
         status = movefile([file(i).folder, filesep, file(i).name], [pwd, filesep, file(i).name]);
     end
-    rmdir([pwd, filesep, prog_name, '-master'])
+    rmdir([pwd, dilse])
     
     
 end
