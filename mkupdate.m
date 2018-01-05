@@ -1,6 +1,6 @@
 function mkupdate(prog_name, web, download_web)
 
-% MKUPDATE is simple function for remote programm files update from 
+% MKUPDATE is simple function for remote program files update from 
 % git-server to end user. It will be useful for your end user to make 
 % update of current version of your program.
 %
