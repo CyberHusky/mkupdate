@@ -1,5 +1,5 @@
-## mkupdate
-# Function for remote update of personal MatLab files.
+# mkupdate
+## Function for remote update of personal MatLab files.
 
 MKUPDATE is simple function for remote programm files update from 
 git-server to end user. It will be useful for your end user to make 
